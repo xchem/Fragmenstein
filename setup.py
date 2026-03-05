@@ -1,5 +1,9 @@
-version = '1.1.1'
+"""Release build logic.
 
+!!! DO NOT BUILD THIS PACKAGE MANUALLY !!!
+
+Official builds are done via our 'release' GitHub CI action.
+"""
 
 from setuptools import setup, find_packages
 from warnings import warn
@@ -7,6 +11,11 @@ from importlib import util
 import os
 
 this_directory = os.path.abspath(os.path.dirname(__file__))
+
+# Extract the version from the CI process.
+# On tag/release, GitHub sets GITHUB_REF_NAME automatically.
+version = os.environ.get('GITHUB_REF_NAME')
+assert version
 
 if os.path.exists(os.path.join(this_directory, 'README.md')):
     with open(os.path.join(this_directory, 'README.md'), 'r') as f:
@@ -32,7 +41,7 @@ else:
 
 # ---------- Pip and Non pip modules  ----------------------------------------------------------------------------------
 
-  # optional
+# optional
 
 # `pip install xxx` from wheels (the pre-compiled packages), does not run setup.py.
 # While sdist does.
@@ -48,9 +57,8 @@ if not util.find_spec('pymol2'):
     warn('The module pymol2 is optionally required (conda or apt-get installable).')
 
 
-
 setup(
-    name='Fragmenstein',
+    name='xchem-fragmenstein',
     version=version,
     description='Merging, linking and placing compounds by stitching them together like a reanimated corpse',
     long_description=long_description,
@@ -65,7 +73,7 @@ setup(
     author='Matteo Ferla',
     author_email='matteo.ferla@gmail.com',
     classifiers=[ # https://pypi.org/classifiers/
-        'Development Status :: 4 - Beta', # Development Status :: 5 - Production/Stable
+        'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Science/Research',
         'Topic :: Scientific/Engineering :: Bio-Informatics',
         'Topic :: Scientific/Engineering :: Chemistry',
