@@ -37,23 +37,23 @@ For GitHub documentation see:
 [![ github stars matteoferla Fragmenstein?style=social](https://img.shields.io/github/stars/matteoferla/Fragmenstein?style=social&logo=github)](https://github.com/matteoferla/Fragmenstein)
 [![ github watchers matteoferla Fragmenstein?label=Watch&style=social](https://img.shields.io/github/watchers/matteoferla/Fragmenstein?label=Watch&style=social&logo=github)](https://github.com/matteoferla/Fragmenstein)
 
-[![ github last-commit matteoferla Fragmenstein](https://img.shields.io/github/last-commit/matteoferla/Fragmenstein?logo=github)](https://github.com/matteoferla/Fragmenstein)
-[![ github license matteoferla Fragmenstein](https://img.shields.io/github/license/matteoferla/Fragmenstein?logo=github)](https://github.com/matteoferla/Fragmenstein/raw/master/LICENCE)
-[![ github release-date matteoferla Fragmenstein](https://img.shields.io/github/release-date/matteoferla/Fragmenstein?logo=github)](https://github.com/matteoferla/Fragmenstein)
-[![ github commit-activity m matteoferla Fragmenstein](https://img.shields.io/github/commit-activity/m/matteoferla/Fragmenstein?logo=github)](https://github.com/matteoferla/Fragmenstein)
-[![ github issues matteoferla Fragmenstein](https://img.shields.io/github/issues/matteoferla/Fragmenstein?logo=github)](https://github.com/matteoferla/Fragmenstein)
-[![ github issues-closed matteoferla Fragmenstein](https://img.shields.io/github/issues-closed/matteoferla/Fragmenstein?logo=github)](https://github.com/matteoferla/Fragmenstein)
+[![ github last-commit matteoferla Fragmenstein](https://img.shields.io/github/last-commit/xchem/Fragmenstein?logo=github)](https://github.com/xchem/Fragmenstein)
+[![ github license matteoferla Fragmenstein](https://img.shields.io/github/license/xchem/Fragmenstein?logo=github)](https://github.com/xchem/Fragmenstein/raw/master/LICENCE)
+[![ github release-date matteoferla Fragmenstein](https://img.shields.io/github/release-date/xchem/Fragmenstein?logo=github)](https://github.com/xchem/Fragmenstein)
+[![ github commit-activity m matteoferla Fragmenstein](https://img.shields.io/github/commit-activity/m/xchem/Fragmenstein?logo=github)](https://github.com/xchem/Fragmenstein)
+[![ github issues matteoferla Fragmenstein](https://img.shields.io/github/issues/xchem/Fragmenstein?logo=github)](https://github.com/xchem/Fragmenstein)
+[![ github issues-closed matteoferla Fragmenstein](https://img.shields.io/github/issues-closed/xchem/Fragmenstein?logo=github)](https://github.com/xchem/Fragmenstein)
 
-[![ pypi v fragmenstein](https://img.shields.io/pypi/v/fragmenstein?logo=python)](https://pypi.org/project/fragmenstein)
-[![ pypi pyversions fragmenstein](https://img.shields.io/pypi/pyversions/fragmenstein?logo=python)](https://pypi.org/project/fragmenstein)
-[![ pypi wheel fragmenstein](https://img.shields.io/pypi/wheel/fragmenstein?logo=python)](https://pypi.org/project/fragmenstein)
-[![ pypi format fragmenstein](https://img.shields.io/pypi/format/fragmenstein?logo=python)](https://pypi.org/project/fragmenstein)
-[![ pypi status fragmenstein](https://img.shields.io/pypi/status/fragmenstein?logo=python)](https://pypi.org/project/fragmenstein)
-[![ pypi dm fragmenstein](https://img.shields.io/pypi/dm/fragmenstein?logo=python)](https://pypi.org/project/fragmenstein)
+[![ pypi v fragmenstein](https://img.shields.io/pypi/v/xchem-fragmenstein?logo=python)](https://pypi.org/project/xchem-fragmenstein)
+[![ pypi pyversions fragmenstein](https://img.shields.io/pypi/pyversions/xchem-fragmenstein?logo=python)](https://pypi.org/project/xchem-fragmenstein)
+[![ pypi wheel fragmenstein](https://img.shields.io/pypi/wheel/xchem-fragmenstein?logo=python)](https://pypi.org/project/xchem-fragmenstein)
+[![ pypi format fragmenstein](https://img.shields.io/pypi/format/xchem-fragmenstein?logo=python)](https://pypi.org/project/xchem-fragmenstein)
+[![ pypi status fragmenstein](https://img.shields.io/pypi/status/xchem-fragmenstein?logo=python)](https://pypi.org/project/xchem-fragmenstein)
+[![ pypi dm fragmenstein](https://img.shields.io/pypi/dm/xchem-fragmenstein?logo=python)](https://pypi.org/project/xchem-fragmenstein)
 
-[![ codeclimate maintainability matteoferla Fragmenstein](https://img.shields.io/codeclimate/maintainability/matteoferla/Fragmenstein?logo=codeclimate)](https://codeclimate.com/github/matteoferla/Fragmenstein)
-[![ codeclimate issues matteoferla Fragmenstein](https://img.shields.io/codeclimate/issues/matteoferla/Fragmenstein?logo=codeclimate)](https://codeclimate.com/github/matteoferla/Fragmenstein)
-[![ codeclimate tech-debt matteoferla Fragmenstein](https://img.shields.io/codeclimate/tech-debt/matteoferla/Fragmenstein?logo=codeclimate)](https://codeclimate.com/github/matteoferla/Fragmenstein)
+[![ codeclimate maintainability xchem Fragmenstein](https://img.shields.io/codeclimate/maintainability/xchem/Fragmenstein?logo=codeclimate)](https://codeclimate.com/github/xchem/Fragmenstein)
+[![ codeclimate issues xchem Fragmenstein](https://img.shields.io/codeclimate/issues/xchem/Fragmenstein?logo=codeclimate)](https://codeclimate.com/github/xchem/Fragmenstein)
+[![ codeclimate tech-debt xchem Fragmenstein](https://img.shields.io/codeclimate/tech-debt/xchem/Fragmenstein?logo=codeclimate)](https://codeclimate.com/github/xchem/Fragmenstein)
 
 Example of multiple applications: [![](https://img.shields.io/youtube/views/kieDWYkzmiE)](https://www.youtube.com/watch?v=kieDWYkzmiE)
 
@@ -87,7 +87,7 @@ Example of multiple applications: [![](https://img.shields.io/youtube/views/kieD
 * Fragmenstein combine route does not check if a compound is purchasable. Above NextMove Software SmallWorld is used
   ([SmallWorld hosted by John Irwin](sw.docking.org)) to find the top N analogues,
   via [an API](https://github.com/matteoferla/Python_SmallWorld_API).
-* In [Arthorian Quest](https://github.com/matteoferla/Arthorian-Quest), a parent combound is coverted with ease into an ambiguous SMARTS pattern, 
+* In [Arthorian Quest](https://github.com/matteoferla/Arthorian-Quest), a parent combound is coverted with ease into an ambiguous SMARTS pattern,
   catalogue compounds are searched with NextMove Software's Arthor ([hosted by John Irwin](arthor.docking.org)) and then placed with Fragmenstein.
 * Steph Wills's [fragment network merges repo](https://github.com/stephwills/fragment_network_merges)
     enumerates superstructures of two parent hits from catalogue and places them with Fragmenstein.
